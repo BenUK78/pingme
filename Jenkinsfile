@@ -3,8 +3,7 @@ pipeline{
     stages{
       stage("Build App"){
         steps{
-          sh "mvn package"
-        }
+          sh "mvn package"}
       }
     }
 }
